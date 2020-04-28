@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0EEF7"
+        tools:context=".MainActivity">
+
+
+    <TextView android:id="@+id/test_view"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textColor="#2BB921"
+              android:text=""
+              android:textSize="25dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent"
+              android:layout_marginBottom="150dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textColor="#2BB921"
+              android:text="When was Kotlin created?"
+              android:textSize="25dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              android:layout_marginTop="90dp"/>
+
+    <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="100dp">
+
+        <RadioButton
+                android:id="@+id/first_var"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:text="In 1999"
+                android:textSize="18dp"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints"/>
+        <RadioButton
+                android:id="@+id/second_var"
+                android:layout_width="wrap_content"
+                android:text="In 2017"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"/>
+        <RadioButton
+                android:id="@+id/third_var"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In 2010"
+                android:textSize="18dp"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints"/>
+        <RadioButton
+                android:id="@+id/forth_var"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In 2005"
+                android:textSize="18dp"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints"/>
+    </RadioGroup>
+
+    <Button
+            android:id="@+id/check_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:background="#2BB921"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="380dp"
+            android:layout_marginRight="70dp"/>
+
+    <Button android:id="@+id/clear_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Clear"
+            android:textColor="@android:color/white"
+            android:background="#D8300C"
+            android:textSize="20dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="70dp"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="© by Karina"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent"
+              android:layout_marginBottom="20dp"
+              />
+</androidx.constraintlayout.widget.ConstraintLayout>
