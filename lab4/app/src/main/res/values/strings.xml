@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Player</string>
+    <string-array name="Media">
+        <item>Ludovico Einaudi - Una Mattina</item>
+        <item>Beethoven - Sonata</item>
+        <item>Beethover - Symphony</item>
+        <item>Sheeps.mp4</item>
+        <item>Eagles.mp4</item>
+    </string-array>
+</resources>
